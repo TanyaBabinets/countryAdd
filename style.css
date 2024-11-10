@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center ;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url('kiev.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.btn {
+    background-color: beige;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    width:300px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width:300px;
+    margin: 0 auto;
+}
+#combo{
+    padding: 10px;
+    font-size: 16px;
+    width:300px;
+    margin: 0 auto;
+}
